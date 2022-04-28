@@ -1,6 +1,6 @@
 {
-  "name": "code-help",
-  "version": "1.0.0",
+  "name": "freeso-code-aimbot",
+  "version": "0.2.1",
   "private": true,
   "scripts": {
     "build": "rollup -c",
