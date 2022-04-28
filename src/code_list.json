@@ -1,0 +1,93 @@
+{
+  "code": "AAA",
+  "0": {
+    "0": {
+      "code": "CCC"
+    },
+    "1": {
+      "0": {
+        "code": "CCB"
+      },
+      "1": {
+        "code": "BCC"
+      },
+      "2": {
+        "code": "CBC"
+      },
+      "code": "ABC"
+    },
+    "2": {
+      "0": {
+        "code": "BCB"
+      },
+      "1": {
+        "code": "CBB"
+      },
+      "2": {
+        "code": "BBC"
+      },
+      "code": "ABC"
+    },
+    "code": "BBB"
+  },
+  "1": {
+    "0": {
+      "1": {
+        "code": "CCA"
+      },
+      "2": {
+        "1": {
+          "code": "CBA"
+        },
+        "code": "BCA"
+      },
+      "code": "BBA"
+    },
+    "1": {
+      "1": {
+        "2": {
+          "code": "BAC"
+        },
+        "code": "CAC"
+      },
+      "2": {
+        "code": "ACC"
+      },
+      "code": "ABC"
+    },
+    "2": {
+      "1": {
+        "2": {
+          "code": "CAB"
+        },
+        "code": "BAB"
+      },
+      "2": {
+        "code": "ACB"
+      },
+      "code": "ABB"
+    },
+    "code": "AAB"
+  },
+  "2": {
+    "0": {
+      "2": {
+        "code": "CAA"
+      },
+      "code": "BAA"
+    },
+    "1": {
+      "1": {
+        "code": "ACA"
+      },
+      "code": "AAB"
+    },
+    "2": {
+      "1": {
+        "code": "ABA"
+      },
+      "code": "AAC"
+    },
+    "code": "ABC"
+  }
+}

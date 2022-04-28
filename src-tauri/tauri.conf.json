@@ -1,0 +1,63 @@
+{
+  "package": {
+    "productName": "FreeSO Code Aimbot",
+    "version": "0.2.0"
+  },
+  "build": {
+    "distDir": "../public",
+    "devPath": "http://localhost:54084",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build"
+  },
+  "tauri": {
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "uk.trmg.codebot",
+      "icon": [
+        "icons/icon.ico"
+      ],
+      "resources": [],
+      "externalBin": [],
+      "copyright": "",
+      "category": "DeveloperTool",
+      "shortDescription": "",
+      "longDescription": "",
+      "deb": {
+        "depends": [],
+        "useBootstrapper": false
+      },
+      "macOS": {
+        "frameworks": [],
+        "useBootstrapper": false,
+        "exceptionDomain": "",
+        "signingIdentity": null,
+        "providerShortName": null,
+        "entitlements": null
+      },
+      "windows": {
+        "certificateThumbprint": null,
+        "digestAlgorithm": "sha256",
+        "timestampUrl": ""
+      }
+    },
+    "updater": {
+      "active": false
+    },
+    "allowlist": {
+      "all": true
+    },
+    "windows": [
+      {
+        "title": "FreeSO Code Aimbot",
+        "width": 400,
+        "height": 280,
+        "resizable": false,
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  }
+}
